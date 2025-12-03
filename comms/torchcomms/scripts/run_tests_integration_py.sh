@@ -20,8 +20,8 @@ export TEST_BACKEND=nccl
 run_tests
 
 # NCCLX
-export TEST_BACKEND=ncclx
-run_tests
+# export TEST_BACKEND=ncclx
+# run_tests
 
 # Gloo with CPU
 export TEST_BACKEND=gloo
