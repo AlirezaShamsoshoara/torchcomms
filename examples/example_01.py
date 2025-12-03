@@ -24,6 +24,7 @@ def main():
     tensor = torch.full(
         (1024,), float(rank + 1), dtype=torch.float32, device=target_device
     )
+    # print(f"{tensor.shape=}")
 
     print(f"Rank {rank}: Before AllReduce: {tensor[0].item()}")
 
